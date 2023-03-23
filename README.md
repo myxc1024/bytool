@@ -40,7 +40,7 @@ bytool的存在就是为了减少代码搜索成本，避免网络上参差不�
 ## 📃 安装及使用
 安装及使用方式请查阅：[https://www.bytool.cn/2.html](https://www.bytool.cn/2.html)
 
-##  🤑 赞助我们
+##  🤑 支持我们
 有您的支持，我们会走的更远。
 
 ![](https://theme.bytool.cn/img/alipay.jpg)

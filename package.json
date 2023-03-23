@@ -1,9 +1,9 @@
 {
   "name": "bytool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "前端工具包（bytool）",
   "miniprogram": "dist",
-  "main": "dist/bytool-1.0.0.min.js",
+  "main": "dist/bytool-1.0.1.min.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
