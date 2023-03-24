@@ -1,0 +1,1 @@
+var r=function(r,n){if(!n)return r;for(var t=n.split(",").reverse(),e=r.slice(0),i=function(r,n){e.sort((function(n,e){return n[t[r]]-e[t[r]]}))},o=0,u=t.length;o<u;o++)i(o);return e};export{r as arraySort};

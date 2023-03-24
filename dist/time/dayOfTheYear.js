@@ -1,0 +1,1 @@
+import{leapYear as e}from"./leapYear.js";var r=function(r){for(var t=new Date(r),a=t.getFullYear(),o=t.getMonth(),n=t.getDate(),f=[31,e(a)?29:28,31,30,31,30,31,31,30,31,30,31],g=0;g<o;g++)n+=f[g];return n};export{r as dayOfTheYear};

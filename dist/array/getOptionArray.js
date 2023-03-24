@@ -1,0 +1,1 @@
+var r=function(r,t){var n=[];if(!t)return r;var e,f=t.split(",");if(1===f.length){for(var h=0,u=r.length;h<u;h++)n.push(r[h][t]);return n}for(h=0,u=r.length;h<u;h++){e=[];for(var a=0,l=f.length;a<l;a++)e[f[a]]=r[h][f[a]];n.push(e)}return n};export{r as getOptionArray};

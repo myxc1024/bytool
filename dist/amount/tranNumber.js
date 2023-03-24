@@ -1,0 +1,1 @@
+var t=function(t,n){void 0===n&&(n=2);var r=t.toString().split(".")[0];if(r.length<6)return r;if(r.length>=6&&r.length<=8){var e=r.substring(r.length-4,r.length-4+n);return parseFloat(parseInt((t/1e4).toString())+"."+e)+"万"}if(r.length>8){e=r.substring(r.length-8,r.length-8+n);return parseFloat(parseInt((t/1e8).toString())+"."+e)+"亿"}};export{t as tranNumber};

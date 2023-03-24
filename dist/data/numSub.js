@@ -1,0 +1,1 @@
+var t=function(t,r){var a,n,e;try{n=t.toString().split(".")[1].length}catch(t){n=0}try{e=r.toString().split(".")[1].length}catch(t){e=0}return a=Math.pow(10,Math.max(n,e)),Number(((t*a-r*a)/a).toFixed(n>=e?n:e))};export{t as numSub};

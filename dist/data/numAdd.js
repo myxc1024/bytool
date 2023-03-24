@@ -1,0 +1,1 @@
+var t=function(t,r){var a,n,h;try{n=t.toString().split(".")[1].length}catch(t){n=0}try{h=r.toString().split(".")[1].length}catch(t){h=0}return(t*(a=Math.pow(10,Math.max(n,h)))+r*a)/a};export{t as numAdd};

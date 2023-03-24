@@ -1,0 +1,1 @@
+import{isNotNull as t}from"./isNotNull.js";var r=function(r){var e=!1;return t(r)&&("string"==typeof r?r.length>0&&(e=!0):"number"==typeof r?e=!0:"object"==typeof r&&r instanceof Array?r.length>0&&(e=!0):e=!0),e};export{r as isNotEmpty};

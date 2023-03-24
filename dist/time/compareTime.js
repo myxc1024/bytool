@@ -1,0 +1,1 @@
+var e=function(e,a){return Date.parse(e.replace(/-/g,"/"))>Date.parse(a.replace(/-/g,"/"))?1:Date.parse(e.replace(/-/g,"/"))<Date.parse(a.replace(/-/g,"/"))?-1:Date.parse(e.replace(/-/g,"/"))==Date.parse(a.replace(/-/g,"/"))?0:void 0};export{e as compareTime};

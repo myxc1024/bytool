@@ -1,0 +1,1 @@
+var e=function(e,r){switch(void 0===r&&(r=1),r){case 1:return e.replace(/\s+/g,"");case 2:return e.replace(/(^\s*)|(\s*$)/g,"");case 3:return e.replace(/(^\s*)/g,"");case 4:return e.replace(/(\s*$)/g,"");default:return e}};export{e as trim};

@@ -1,0 +1,1 @@
+var e=function(e){var t=new Date(e),a=(t=new Date(Date.UTC(t.getFullYear(),t.getMonth(),t.getDate()))).toString().match(/([A-Z]+)([-+]\d+:?\d+)/);return{name:a[1],value:a[2]}};export{e as timeZoneNameValue};

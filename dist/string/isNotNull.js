@@ -1,0 +1,1 @@
+var e=function(e){if("number"==typeof e){if(!isNaN(e))return!0}else if("boolean"==typeof e){if(null!=e&&void 0!==e&&("false"==(e+"").toLowerCase()||"true"==(e+"").toLowerCase()))return!0}else if(e&&null!=e&&void 0!==e&&0!=Object.keys(e).length)return!0;return!1};export{e as isNotNull};
